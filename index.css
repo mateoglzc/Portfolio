@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav_links{
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.mini_avatar{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar_image{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%; 
+    height: 100%;
+    width: auto;
+}
+
+.main_card{
+    background-color: #5EA529;
+    margin: 2rem 6rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar{
+    width: 8rem;
+    height: 8rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.name{
+    grid-area: "mid";
+    text-align: center;
+}
+
+.button{
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.projects h1{
+    text-align: center;
+    font-weight: 500px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1, .c2, .c3{
+    width: 15rem;
+    height: 25rem;
+    border: 5px solid #2C590A;
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    margin-left: 6rem;
+}
+
+.c3{
+    margin-right: 6rem;
+}
+
+.c1 img, .c2 img, .c3 img{
+    width: 100%;
+
+}
