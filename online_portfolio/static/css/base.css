@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+a, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav_links{
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.mini_avatar{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar_image{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%; 
+    height: 100%;
+    width: auto;
+}
