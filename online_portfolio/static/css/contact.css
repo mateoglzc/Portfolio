@@ -1,0 +1,14 @@
+.main{
+    background-color: #5EA529;
+    margin: 2rem 6rem; 
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small_image{
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+}

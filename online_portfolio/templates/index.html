@@ -16,7 +16,7 @@
         <h1>Mateo Gonzalez Cosio</h1>
         <p>I'm computer science student at ITESM CSF, with a passion for coding, technology and problem solving.</p>
     </div>
-    <button class="button">About Me</button>
+    <button class="button"><a href="{{ url_for('main.about') }}">About Me</a></button>
 </div>
 
 <!-- Projects -->
@@ -26,20 +26,102 @@
         <!-- Card 1 -->
         <div class="c1">
             <img src="{{ url_for('static', filename='Images/Memory.PNG') }}" alt="">
-            <p>Memory game</p>
+            <div class="bttm_card1">
+                <h2>Memory Game</h2>
+                <p>A simple Memory Game made in Python using the Pygame library. Originally made for
+                    a school project but continued after class ended.
+                </p>
+            </div>
         </div>
         <!-- Card 2 -->
         <div class="c2">
             <img src="{{ url_for('static', filename='Images/Website.PNG') }}" alt="">
-            <p>Blog Website</p>
+            <div class="bttm_card2">
+                <h2>Blog Website</h2>
+                <p> A Blog Website made and designed by me. It was made in Python using the flask library, and it
+                    has a CRUD (Create, Read, Update and Delete) system with it's own data base. As well, it has login system,
+                    custom error pages and a email password reset system. 
+                </p>
+            </div>
         </div>
         <!-- Card 3 -->
         <div class="c3">
             <img src="{{ url_for('static', filename='Images/Sequence.PNG') }}" alt="">
-            <p>Sequence Game</p>
+            <div class="bttm_card3">
+                <h2>Sequence Game</h2>
+                <p>A simple recreation of my favorite table game: Sequence. This was made in Python using the pygame library.
+                </p>
+            </div>
         </div>
     </div>
 </div>
 
+<h1 class="title_sep">Skills</h1>
+
+<!-- Skills -->
+<div class="skills">
+    <div class="column">
+        <ul>
+            <li><div style="display: flex;">
+                <img src="{{ url_for('static', filename='Images/codigo.png') }}" alt="">
+                <div>
+                    <p class="subtitle">Languages</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+            </div></li>
+            <li><div style="display: flex;">
+                <img src="{{ url_for('static', filename='Images/provlemsolving.png') }}" alt="">
+                <div>
+                    <p class="subtitle">Problem solving</p>
+                    <p class="paragraph"></p>
+                </div>
+            </div></li>
+        </ul>
+    </div>
+    <div class="column">
+        <ul>
+            <li><div style="display: flex;">
+                <img src="" alt="">
+                <div>
+                    <p class="subtitle">Dedication</p>
+                    <p class="paragraph"></p>
+                </div>
+            </div></li>
+            <li><div style="display: flex;">
+                <img src="" alt="">
+                <div>
+                    <p class="subtitle">Fast learner</p>
+                    <p class="paragraph"></p>
+                </div>
+            </div></li>
+        </ul>
+    </div>
+</div>
+
+<h1 class="title_sep">Hobbies</h1>
+
+<!-- Hobbies -->
+<div class="hobbies">
+    <!-- Code wars -->
+    <div class="column">
+        <img src="{{url_for('static', filename='Images/codewars.png')}}" alt="" style="background-color: #2A2A2A;">
+        <div>
+            <p class="subtitle">Code Wars enthusiast</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolorem quis illo ut accusantium impedit quia laborum autem consequuntur facere! Voluptatum quae voluptatem ea dicta vero repudiandae natus laboriosam praesentium.</p>
+        </div>
+    </div>
+    <!-- Prepa net tutor -->
+    <div class="column">
+        <img src="{{url_for('static', filename='Images/prepanet.png')}}" alt="">
+        <div>
+            <p class="subtitle">Prepa Net Tutor</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolorem quis illo ut accusantium impedit quia laborum autem consequuntur facere! Voluptatum quae voluptatem ea dicta vero repudiandae natus laboriosam praesentium.</p>
+        </div>
+    </div>
+</div>
 {% endblock %}
  

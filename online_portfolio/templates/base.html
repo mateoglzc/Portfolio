@@ -15,12 +15,18 @@
         </div>
         <h1 class="logo">Mateo Gonzalez Cosio</h1>
         <ul class="nav_links"> 
-            <li style="padding-right: .5rem;"><a href="">About me</a></li>
-            <li style="padding-left: .5rem;"><a href="">Contact</a></li> 
+            <li style="padding-right: .5rem;"><a href="{{ url_for('main.about')}}">About me</a></li>
+            <li style="padding-left: .5rem;"><a href="{{ url_for('main.contact')}}">Contact</a></li> 
         </ul>
     </header>
 
     {% block body %}{% endblock %}
+
+    <footer>
+        Problem solving icon design by <a href="https://www.flaticon.es/autores/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+        <p>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></p>
+        Coding icon design by <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+    </footer>
 
 </body>
 </html>

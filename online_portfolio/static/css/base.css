@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,7 +22,6 @@ header{
 
 .logo{
     margin-right: auto;
-    font-weight: bold;
 }
 
 .nav_links{
@@ -46,4 +49,18 @@ header{
     margin-left: -25%; 
     height: 100%;
     width: auto;
+}
+
+.subtitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title_sep{
+    margin: 2rem;
+    text-align: center;
+}
+
+.paragraph{
+    text-align: justify;
 }
