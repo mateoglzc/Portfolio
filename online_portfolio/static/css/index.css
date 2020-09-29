@@ -43,8 +43,8 @@
 }
 
 .c1, .c2, .c3{
-    width: 16rem;
-    height: 25rem;
+    width: 18rem;
+    height: 30rem;
     border: 5px solid #2C590A;
     display: flex;
     flex-direction: column;

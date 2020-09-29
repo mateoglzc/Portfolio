@@ -64,3 +64,13 @@ header{
 .paragraph{
     text-align: justify;
 }
+
+footer{
+    background-color: #5EA529;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+footer ul{
+    list-style: none;
+}
