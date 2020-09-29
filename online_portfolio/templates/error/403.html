@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/error.css')}}">
+{% endblock %}
+
+{% block body %} 
+
+<div class="error">
+    <h1>
+        You don't have permission to do that!
+    </h1>
+</div>
+
+{% endblock %}

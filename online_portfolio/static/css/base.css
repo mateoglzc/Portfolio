@@ -5,8 +5,19 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: 0;
+    text-decoration: none;
     font-family: "Nunito", sans-serif;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 100px;
+    bottom: 115px;
+    padding: 25px;
 }
 
 a, a:visited, a:hover, a:active {
@@ -69,8 +80,31 @@ footer{
     background-color: #5EA529;
     margin-top: 2rem;
     padding: 1rem;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 97.8%;
+    overflow: hidden;
 }
 
 footer ul{
     list-style: none;
+}
+
+.main-ft{
+    background-color: #5EA529;
+    height: 5rem;
+}
+
+.main-ft li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.small_image-f{
+    width: 1rem;
+    height: 1rem;
+    margin: 10px;
 }

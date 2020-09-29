@@ -15,6 +15,7 @@
         </div>
         <h1 class="logo">Mateo Gonzalez Cosio</h1>
         <ul class="nav_links"> 
+            <li style="padding-left: .5rem;"><a href="{{ url_for('main.index')}}">Home</a></li>
             <li style="padding-right: .5rem;"><a href="{{ url_for('main.about')}}">About me</a></li>
             <li style="padding-left: .5rem;"><a href="{{ url_for('main.contact')}}">Contact</a></li> 
         </ul>
@@ -23,12 +24,34 @@
     {% block body %}{% endblock %}
 
     <footer>
-        <div>
-            <ul>
-                <li>Icons Retrieved form <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> </li>
+        <div class="main-ft">
+            <ul style="list-style: none;">
+                <!-- mail -->
+                <li><div style="display:flex; align-items: center;">
+                    <img src="{{ url_for('static', filename='Images/email.png')}}" alt="" class="small_image-f">
+                    <p>mateoglzc@hotmail.com</p>
+                </div></li> 
+                <!-- github -->
+                <li><div style="display:flex; align-items: center;">
+                    <img src="{{ url_for('static', filename='Images/github.png')}}" alt="" class="small_image-f">
+                    <p>mateoglzc</p>
+                </div></li>
+                <!-- facebook -->
+                <li><div style="display:flex; align-items: center;">
+                    <img src="{{ url_for('static', filename='Images/facebook.png')}}" alt="" class="small_image-f">
+                    <p>Matt Gonzalez</p>
+                </div></li>
+                <!-- instragram -->
+                <li><div style="display:flex; align-items: center;">
+                    <img src="{{ url_for('static', filename='Images/logotipo-de-instagram.png')}}" alt="" class="small_image-f"> 
+                    <p>@mateogcrv</p>
+                </div></li>
+
+                <li><div style="display:flex; align-items: center;">
+                    Icons Retrieved form <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> 
+                </div></li>
             </ul>
         </div>
     </footer>
-
 </body>
 </html>

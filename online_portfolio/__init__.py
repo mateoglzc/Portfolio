@@ -6,7 +6,9 @@ def create_app(config_class=Config):
     app.config.from_object(Config)
 
     from online_portfolio.Main.routes import main
-
-    app.register_blueprint(main)
+    from online_portfolio.Errors.handles import erros
     
+    app.register_blueprint(main)
+    app.register_blueprint(erros)
+
     return app
