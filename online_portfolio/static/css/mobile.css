@@ -1,0 +1,73 @@
+
+
+.main_card{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+}
+
+.avatar{
+    width: 4rem;
+    height: 4rem;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.button{
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 1em;
+}
+
+.projects h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.c1, .c2, .c3{
+    background-color: green;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.c1 img, .c2 img, .c3 img{
+    width: 6em;
+    height: 4em;
+}
+
+.c1 ul li, .c2 ul li, .c3 ul li{
+    display: none;
+}
+
+.title_sep{
+    text-align: center;
+}
+
+.hobbies, .skills{
+    background-color: gray;
+    padding: 1em;
+    margin: 1em;
+}
+
+.column ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.hobbies img, .skills img{
+    display: none;
+}
+
+.hobbies p, .skills p{
+    text-align: justify;
+    font-size: small;
+}
+
