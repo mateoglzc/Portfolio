@@ -1,7 +1,7 @@
 # Online Portfolio
 
 This project is my Online Portfolio. I'm making it using Python and the Flask Module.
-If you are interested in seeing the process, you are free to clone or download the project and it is as simple as to run the file called *Run.py*.
+If you are interested in seeing the process, you are free to clone or download the project (at commit "Started Mobile Desing 📱") and it is as simple as to run the file called *Run.py*.
 
 At the moment the Website is done and displays well on any pc or laptop. The text is also almost final, it just needs some revisions.
 I'm currently working on making the website display well on mobile and tablet devices. As well as creating links for all my contact information.
