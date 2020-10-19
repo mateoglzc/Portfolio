@@ -4,7 +4,7 @@ main = Blueprint('main', __name__)
 
 @main.route('/')
 def index():
-    return render_template('index.html', _external=True)
+    return render_template('mobile.html', _external=True)
 
 @main.route('/about_me')
 def about():
@@ -16,4 +16,4 @@ def contact():
 
 @main.route('/mobile')
 def mobile():
-    return render_template('mobile.html')
+    return render_template('index.html')
