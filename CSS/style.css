@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    font-family: 'Karla', serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    /* background-color: #E8DACD; */
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin: 5px;
+}
+
+.nameAvatar{
+    display: flex;
+    align-items: center;
+}
+
+.nameAvatar > *{
+    margin: 5px;
+}
+
+.round {
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 50%; 
+  
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 50%; 
+    
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 50%; 
+}
+
+.nameAvatar img{
+    width: 54px;
+    height: 54px;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+hr { 
+    /* width: 60%; */
+    margin-left: 0;
+}
