@@ -9,8 +9,7 @@ html{
 }
 
 body{
-    /* background-color: #E8DACD; */
-    background-color: white;
+    background-color: #dad7cd;
     margin: 0;
 }
 
@@ -24,10 +23,12 @@ header{
 nav ul{
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 li{
     margin: 5px;
+    font-weight: bold;
 }
 
 .nameAvatar{
@@ -55,20 +56,45 @@ li{
     height: 54px;
 }
 
-
-main{
-    display: flex;
-    justify-content: space-evenly;
+.burger {
+    display: none;
+    cursor: pointer;
 }
 
-.title{
-    margin-bottom: 25px;
-    margin-top: 0;
-    font-size: 40px;
-    font-weight: 800;
+.burger div{
+    background-color: black;
+    width: 25px;
+    height: 4px;
+    margin: 5px;
 }
 
-hr { 
-    /* width: 60%; */
-    margin-left: 0;
+@media screen and (max-width: 768px) {
+
+    nav{
+        position: absolute;
+        right: 0px;
+        top: 11vh;
+        height: 89vh;
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li{
+        margin: 25px;
+        padding: 10px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .nav-active{
+        display: none;
+    }
 }
+
