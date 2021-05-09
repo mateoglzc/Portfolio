@@ -1,0 +1,6 @@
+MattPortafolio/site.db
+MattPortafolio/__pycache__/*.pyc
+.vscode/
+secret.py
+**.pyc
+**.json

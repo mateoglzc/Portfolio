@@ -68,14 +68,17 @@ li{
     margin: 5px;
 }
 
+
 @media screen and (max-width: 768px) {
 
     nav{
         position: absolute;
         right: 0px;
-        top: 11vh;
+        top: 75px;
         height: 89vh;
         width: 100%;
+        display: none;
+        background-color: #dad7cd;
     }
 
     nav ul{
@@ -94,7 +97,7 @@ li{
     }
 
     .nav-active{
-        display: none;
+        display: block;
     }
 }
 

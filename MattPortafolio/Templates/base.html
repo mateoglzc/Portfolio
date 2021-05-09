@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Matt's Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static' , filename='css/base.css') }}">
+    {% block head %}{% endblock %}
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <div class="nameAvatar">
 
             <!-- My image -->
-            <img src="/Images/Perfil.jpeg" alt="" class="round">
+            <img src="{{ url_for('static' , filename='Images/Perfil.jpeg') }}" alt="" class="round">
 
         </div>
 
@@ -41,7 +41,9 @@
 
     <hr>
 
-    <script src="/JS/main.js"></script>
+    {% block body %} {% endblock %}
+    {% block script %} {% endblock %}
+
 
 </body>
 
